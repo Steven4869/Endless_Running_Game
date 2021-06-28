@@ -1,0 +1,53 @@
+body{
+  background-color: gray;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);    
+}
+
+h1{
+  font-size: 2.8em;
+  text-align: center;
+  color: white
+}
+#canvas{
+  border: solid 5px wheat;
+  background-color: white;
+  border-radius: 25px;
+}
+#my{
+  position: absolute;
+  top: 22%;
+  left: 0%;
+  color: wheat;
+}
+#myscore{
+  position: absolute;
+  top: 22%;
+  left: 8%;
+  color: wheat;
+}
+#high{
+  position: absolute;
+  top: 22%;
+  left: 80%;
+  color: wheat;
+}
+#highs{
+  position: absolute;
+  top: 22%;
+  left: 92%;
+  color: wheat;
+}
+button{
+  position: absolute;
+  top: 110%;
+  left: 20%;
+  font-size: 45px;
+  color: wheat;
+  background: none;
+  border-radius: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+}
